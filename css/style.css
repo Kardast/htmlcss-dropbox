@@ -1,0 +1,41 @@
+/* Regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+header{
+    background-color: #a4afcc;
+    height: 50px;
+    width: 100%;
+}
+
+.container_header .logo_box{
+    height: 50px;
+    width: 10%;
+    float: left;
+}
+
+.container_header .nav_container{
+    float: left;
+    width: 90%;
+}
+
+.nav_container li{
+    display: inline-block;
+}
+
+.nav_container .nav_actions_left{
+    float: left;
+}
+
+.nav_container .nav_actions_right{
+    float: right;
+}
