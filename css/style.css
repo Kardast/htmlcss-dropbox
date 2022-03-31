@@ -42,7 +42,8 @@ header{
 .jumbo_bg{
     background-color: rgba(180,208,231,255);
     width: 100%;
-    height: 500px;
+    height: 600px;
+    margin-bottom: 100px;
 }
 
 .jumbo_bg .jumbo_container{
@@ -67,4 +68,42 @@ header{
 
 .right_jumbo img{
     max-width: 80%;
+}
+
+/* Main */
+main .main_container_sub{
+    width: 70%;
+    margin: auto;
+    /* debug */
+    height: 1000px;
+    background-color: rgb(109, 109, 211);
+}
+
+main .main_container_sub::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main_container_sub .main_col{
+    border: 1px solid gray;
+    width: 30%;
+    float: left;
+    margin-bottom: 50px;
+    /* debug */
+    height: 800px;
+    background-color: aqua;
+}
+
+.main_container_sub .main_central_col{
+    margin: 0 5%;
+}
+
+.main_bottom_row{
+    width: 100%;
+    border: 1px solid gray;
+    float: left;
+    /* debug */
+    height: 100px;
+    background-color: aqua;
 }
