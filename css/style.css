@@ -77,7 +77,6 @@ main .main_container_sub{
     width: 70%;
     margin: auto;
     /* debug */
-    height: 1000px;
     background-color: rgb(109, 109, 211);
 }
 
@@ -112,11 +111,21 @@ main .main_container_sub::after{
 }
 
 /* Partner */
-.main_partner .partner{
+.main_container_sub .partner{
     float: left;
     width: 50%;
+    margin-bottom: 100px;
 }
 
 .partner_photo img{
     max-width: 100%;
+}
+
+/* Do more part */
+main .main_container_dmore{
+    width: 70%;
+    margin: auto;
+    /* debug */
+    height: 1000px;
+    background-color: rgb(19, 19, 77);
 }
