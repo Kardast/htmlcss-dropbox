@@ -10,9 +10,7 @@ body{
 }
 
 /* Header */
-
 header{
-    background-color: #a4afcc;
     height: 50px;
     width: 100%;
 }
@@ -38,4 +36,35 @@ header{
 
 .nav_container .nav_actions_right{
     float: right;
+}
+
+/* Jumbotron */
+.jumbo_bg{
+    background-color: rgba(180,208,231,255);
+    width: 100%;
+    height: 500px;
+}
+
+.jumbo_bg .jumbo_container{
+    width: 90%;
+    margin: auto;
+}
+
+.row_jumbo h1{
+    text-align: left;
+    font-size: 80px;
+}
+
+.jumbo_container .left_jumbo{
+    float: left;
+    width: 40%;
+}
+
+.jumbo_container .right_jumbo{
+    float: left;
+    width: 60%;
+}
+
+.right_jumbo img{
+    max-width: 80%;
 }
