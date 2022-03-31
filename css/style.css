@@ -71,6 +71,8 @@ header{
 }
 
 /* Main */
+
+/* Sub part */
 main .main_container_sub{
     width: 70%;
     margin: auto;
@@ -103,7 +105,18 @@ main .main_container_sub::after{
     width: 100%;
     border: 1px solid gray;
     float: left;
+    margin-bottom: 150px;
     /* debug */
     height: 100px;
     background-color: aqua;
+}
+
+/* Partner */
+.main_partner .partner{
+    float: left;
+    width: 50%;
+}
+
+.partner_photo img{
+    max-width: 100%;
 }
