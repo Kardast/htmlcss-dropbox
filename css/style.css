@@ -127,5 +127,20 @@ main .main_container_dmore{
     margin: auto;
     /* debug */
     height: 1000px;
-    background-color: rgb(19, 19, 77);
+    background-color: rgb(66, 66, 85);
+}
+
+main .main_container_dmore::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main_container_dmore .small_box{
+    width: 33%;
+    float: left;
+}
+
+.small_box img{
+    max-width: 100%;
 }
