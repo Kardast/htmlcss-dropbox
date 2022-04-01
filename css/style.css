@@ -9,16 +9,34 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    background-color: rgba(0,97,255,255);
+    padding: 5px 20px;
+    color: white;
+}
+
 /* Header */
 header{
     height: 50px;
     width: 100%;
 }
 
+.logo_box, .nav_container{
+    vertical-align: middle;
+    line-height: 50px;
+}
+
 .container_header .logo_box{
     height: 50px;
     width: 10%;
     float: left;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .logo_box .dropbox_logo{
@@ -32,14 +50,19 @@ header{
 
 .nav_container li{
     display: inline-block;
+    padding: 0 2%;
 }
 
 .nav_container .nav_actions_left{
     float: left;
+    width: 50%;
 }
 
 .nav_container .nav_actions_right{
     float: right;
+    width: 50%;
+    text-align: right;
+    padding-right: 10px;
 }
 
 /* Jumbotron */
