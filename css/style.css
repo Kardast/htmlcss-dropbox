@@ -13,15 +13,15 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: black;
+h2{
+    font-size: 50px;
 }
 
 .button{
     background-color: rgba(0,97,255,255);
     padding: 5px 20px;
     color: white;
+    text-decoration: none;
 }
 
 /* Header */
@@ -55,6 +55,15 @@ header{
 .nav_container li{
     display: inline-block;
     padding: 0 2%;
+}
+
+.nav_container li a{
+    text-decoration: none;
+    color: black;
+}
+
+#hbutton{
+    color: white;
 }
 
 .nav_container .nav_actions_left{
@@ -119,8 +128,6 @@ header{
 main .main_container_sub{
     width: 70%;
     margin: auto;
-    /* debug */
-    background-color: rgb(109, 109, 211);
 }
 
 main .main_container_sub::after{
@@ -129,19 +136,32 @@ main .main_container_sub::after{
     display: table;
 }
 
+.main_high_row input{
+    margin: 50px 0;
+}
+
 .main_container_sub .main_col{
     border: 1px solid gray;
     width: 30%;
     float: left;
     margin-bottom: 50px;
-    /* debug */
-    height: 800px;
-    background-color: aqua;
 }
 
 .main_container_sub .main_central_col{
     margin: 0 5%;
 }
+
+/* Columns content */
+.main_col .p_title{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+.main_col h3{
+    font-size: 25px;
+}
+
 
 .main_bottom_row{
     width: 100%;
@@ -169,7 +189,6 @@ main .main_container_dmore{
     width: 70%;
     margin: auto;
     /* debug */
-    height: 1000px;
     background-color: rgb(66, 66, 85);
 }
 
