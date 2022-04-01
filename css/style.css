@@ -17,6 +17,14 @@ h2{
     font-size: 50px;
 }
 
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
 .button{
     background-color: rgba(0,97,255,255);
     padding: 5px 20px;
@@ -158,19 +166,79 @@ main .main_container_sub::after{
     padding: 10px 0;
 }
 
-.main_col h3{
-    font-size: 25px;
+.main_col .sub_box{
+    padding-left: 30px;
+    height: 1100px;
 }
 
+.sub_box h3{
+    margin: 30px 0 15px;
+}
+
+.sub_box h4{
+    margin-bottom: 10px;
+}
+
+.sub_box #wgray{
+    color: gray;
+    margin-bottom: 40px;
+    display: inline-block;
+}
+
+.sub_box p{
+    margin: 30px 0;
+}
+
+.sub_box .dbutton{
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.sub_box .button{
+    padding: 10px 40px;
+}
+
+.sub_box .bar{
+    border-bottom: 1px solid gray;
+    width: 15%;
+    margin-bottom: 50px;
+}
+
+.sub_box .fa-check{
+    color: blue;
+}
 
 .main_bottom_row{
     width: 100%;
     border: 1px solid gray;
     float: left;
     margin-bottom: 150px;
-    /* debug */
-    height: 100px;
-    background-color: aqua;
+}
+
+.main_bottom_row .p_title{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0;
+}
+
+.main_bottom_row .sub_bottom_box{
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottom_row_button .button{
+    width: 25%;
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.sub_bottom_box h3, .sub_bottom_box h4{
+    margin-bottom: 15px;
 }
 
 /* Partner */
