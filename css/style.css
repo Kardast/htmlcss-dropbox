@@ -1,4 +1,8 @@
 /* Regole generali */
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -69,32 +73,44 @@ header{
 .jumbo_bg{
     background-color: rgba(180,208,231,255);
     width: 100%;
-    height: 600px;
-    margin-bottom: 150px;
+    height: 750px;
+    margin-bottom: 200px;
 }
 
 .jumbo_bg .jumbo_container{
-    width: 90%;
+    width: 80%;
     margin: auto;
+    padding-top: 50px;
 }
 
 .row_jumbo h1{
     text-align: left;
-    font-size: 80px;
+    font-size: 85px;
+    font-weight: 600;
 }
 
 .jumbo_container .left_jumbo{
     float: left;
-    width: 40%;
+    width: 30%;
+    padding-right: 120px;
+}
+
+.left_jumbo p{
+    margin: 30px 0;
+}
+
+.left_jumbo p i{
+    font-size: 40px;
 }
 
 .jumbo_container .right_jumbo{
-    float: left;
+    float: right;
     width: 60%;
 }
 
 .right_jumbo img{
-    max-width: 80%;
+    max-width: 100%;
+    margin-top: 30px;
 }
 
 /* Main */
