@@ -21,6 +21,10 @@ header{
     float: left;
 }
 
+.logo_box .dropbox_logo{
+    max-width: 100%;
+}
+
 .container_header .nav_container{
     float: left;
     width: 90%;
@@ -43,7 +47,7 @@ header{
     background-color: rgba(180,208,231,255);
     width: 100%;
     height: 600px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .jumbo_bg .jumbo_container{
@@ -126,7 +130,7 @@ main .main_container_dmore{
     width: 70%;
     margin: auto;
     /* debug */
-    height: 1000px;
+    /* height: 1000px; */
     background-color: rgb(66, 66, 85);
 }
 
@@ -137,8 +141,12 @@ main .main_container_dmore::after{
 }
 
 .main_container_dmore .small_box{
-    width: 33%;
+    width: 32%;
     float: left;
+}
+
+.main_container_dmore .sbox_middle{
+    margin: 0 2%;
 }
 
 .small_box img{
