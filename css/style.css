@@ -227,3 +227,22 @@ main .main_container_carousel_content::after{
     width: 50%;
     float: left;
 }
+
+/* FAQ */
+main .main_container_faq{
+    width: 70%;
+    margin: auto;
+    /* debug */
+    height: 200px;
+    background-color: rgb(155, 79, 79);
+}
+
+main .main_container_faq::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+ul{
+    list-style-type: none;
+}
