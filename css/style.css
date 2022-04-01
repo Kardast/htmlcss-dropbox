@@ -130,7 +130,7 @@ main .main_container_dmore{
     width: 70%;
     margin: auto;
     /* debug */
-    /* height: 1000px; */
+    height: 1000px;
     background-color: rgb(66, 66, 85);
 }
 
@@ -151,4 +151,79 @@ main .main_container_dmore::after{
 
 .small_box img{
     max-width: 100%;
+}
+
+/* Carousel */
+
+/* Title */
+main .main_container_carousel_title{
+    width: 70%;
+    margin: auto;
+    /* debug */
+    background-color: rgb(79, 155, 83);
+}
+
+main .main_container_carousel_title::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Content */
+main .main_container_carousel_content{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(180,208,231,255)
+}
+
+main .main_container_carousel_content::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Left and right content */
+.car_left_box, .car_right_box{
+    width: 30%;
+    float: left;
+    background-color: aliceblue;
+}
+
+/* Colored box */
+.color_box{
+    width: 50%;
+    float: left;
+    height: 285px;
+}
+
+/* Img box */
+.color_box img{
+    max-width: 100%;
+}
+
+/* Middle content */
+.main_container_carousel_content .car_middle_box{
+    width: 40%;
+    float: left;
+    background-color: rgb(87, 130, 168);
+    height: 570px;
+}
+
+.car_middle_box picture img{
+    max-width: 100%;
+}
+
+/* Bottom content */
+.car_bottom_row{
+    text-align: center;
+}
+
+.car_bottom_row h2{
+    width: 50%;
+    float: left;
+}
+
+.car_bottom_row a{
+    width: 50%;
+    float: left;
 }
