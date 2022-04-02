@@ -244,12 +244,32 @@ main .main_container_sub::after{
 /* Partner */
 .main_container_sub .partner{
     float: left;
-    width: 50%;
     margin-bottom: 100px;
+}
+
+.main_container_sub .partner_photo{
+    width: 60%;
 }
 
 .partner_photo img{
     max-width: 100%;
+}
+
+.main_container_sub .partner_text{
+    width: 40%;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.partner_text p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.partner_text .button{
+    color: black;
+    background-color: white;
+    border: 2px solid gray;
 }
 
 /* Do more part */
