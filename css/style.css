@@ -276,8 +276,7 @@ main .main_container_sub::after{
 main .main_container_dmore{
     width: 70%;
     margin: auto;
-    /* debug */
-    background-color: rgb(66, 66, 85);
+    margin-bottom: 300px;
 }
 
 main .main_container_dmore::after{
@@ -286,9 +285,14 @@ main .main_container_dmore::after{
     display: table;
 }
 
+.main_container_dmore .main_high_row{
+    margin-bottom: 50px;
+}
+
 .main_container_dmore .small_box{
     width: 32%;
     float: left;
+    padding-right: 50px
 }
 
 .main_container_dmore .sbox_middle{
