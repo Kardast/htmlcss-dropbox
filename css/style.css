@@ -89,8 +89,29 @@ header{
     color: black;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 10%;
+    text-align: left;
+    border-radius: 10px;
+}
+  
+#prova-drop:hover .dropdown-content {
+    display: block;
+}
+
 #hbutton{
     color: white;
+}
+
+header .header_a:hover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-decoration: none;
 }
 
 .nav_container .nav_actions_left{
