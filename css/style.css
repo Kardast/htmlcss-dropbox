@@ -32,6 +32,18 @@ h4{
     text-decoration: none;
 }
 
+.button:hover{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .bar{
     border-bottom: 1px solid rgba(223,223,225,255);
     width: 15%;
@@ -42,6 +54,8 @@ h4{
 header{
     height: 50px;
     width: 100%;
+    position: fixed;
+    background-color: white;
 }
 
 .logo_box, .nav_container{
@@ -72,7 +86,6 @@ header{
 }
 
 .nav_container li a{
-    text-decoration: none;
     color: black;
 }
 
@@ -96,8 +109,9 @@ header{
 .jumbo_bg{
     background-color: rgba(180,208,231,255);
     width: 100%;
-    height: 750px;
+    height: 800px;
     margin-bottom: 200px;
+    padding-top: 50px;
 }
 
 .jumbo_bg .jumbo_container{
@@ -136,7 +150,7 @@ header{
     margin-top: 30px;
 }
 
-.left_jumbo a{
+.left_jumbo .icon_button{
     color: black;
 }
 
@@ -535,7 +549,6 @@ footer .footer_container::after{
 }
 
 .footer_col a{
-    text-decoration: none;
     color: white;
 }
 
