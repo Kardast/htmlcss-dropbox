@@ -56,6 +56,7 @@ header{
     width: 100%;
     position: fixed;
     background-color: white;
+    z-index: 99999;
 }
 
 .logo_box, .nav_container{
