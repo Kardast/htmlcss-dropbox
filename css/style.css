@@ -174,7 +174,7 @@ main .main_container_sub::after{
 
 .main_col .sub_box{
     padding-left: 30px;
-    height: 1100px;
+    min-height: 1200px;
 }
 
 .sub_box h3{
@@ -208,11 +208,17 @@ main .main_container_sub::after{
     color: blue;
 }
 
-.main_bottom_row{
+.main_container_sub .main_bottom_row{
     width: 100%;
     border: 1px solid gray;
     float: left;
     margin-bottom: 150px;
+}
+
+.main_container_sub .main_bottom_row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .main_bottom_row .p_title{
@@ -227,6 +233,12 @@ main .main_container_sub::after{
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.main_bottom_row .bottom_row_button:after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .bottom_row_button .button{
@@ -316,12 +328,6 @@ main .main_container_carousel_title{
     margin-bottom: 50px;
 }
 
-main .main_container_carousel_title::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .main_container_carousel_title h2{
     width: 60%;
     margin-bottom: 30px;
@@ -331,7 +337,6 @@ main .main_container_carousel_title::after{
 main .main_container_carousel_content{
     width: 100%;
     margin: auto;
-    height: 900px;
     background-color: rgba(180,208,231,255);
     margin-bottom: 100px;
 }
@@ -346,6 +351,18 @@ main .main_container_carousel_content::after{
 .car_left_box, .car_right_box{
     width: 30%;
     float: left;
+}
+
+.car_left_box:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.car_right_box:after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 /* Colored box */
@@ -419,10 +436,21 @@ main .main_container_carousel_content::after{
 }
 
 /* Bottom content */
+.main_container_carousel_content .car_bottom_row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 .car_bottom_row h2{
     width: 50%;
     float: left;
-    padding: 100px 0 0 250px;
+    padding: 100px 0 100px 250px;
+}
+
+.car_bottom_row div::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .car_bottom_row a{
@@ -441,12 +469,6 @@ main .main_container_faq{
     margin-bottom: 100px;
 }
 
-main .main_container_faq::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .main_container_faq h2{
     margin-bottom: 50px;
 }
@@ -459,6 +481,12 @@ main .main_container_faq::after{
 .faqs li{
     padding: 30px 0;
     border-top: 1px solid rgba(223,223,225,255);
+}
+
+.main_container_faq ul li h4::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .faqs span{
