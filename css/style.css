@@ -333,6 +333,7 @@ main .main_container_carousel_content{
     margin: auto;
     height: 900px;
     background-color: rgba(180,208,231,255);
+    margin-bottom: 100px;
 }
 
 main .main_container_carousel_content::after{
@@ -437,9 +438,7 @@ main .main_container_carousel_content::after{
 main .main_container_faq{
     width: 70%;
     margin: auto;
-    /* debug */
-    height: 200px;
-    background-color: rgb(155, 79, 79);
+    margin-bottom: 100px;
 }
 
 main .main_container_faq::after{
@@ -448,9 +447,27 @@ main .main_container_faq::after{
     display: table;
 }
 
+.main_container_faq h2{
+    margin-bottom: 50px;
+}
+
 /* Questions list */
 .main_container_faq ul{
     list-style-type: none;
+}
+
+.faqs li{
+    padding: 30px 0;
+    border-top: 1px solid grey;
+}
+
+.faqs span{
+    float: right;
+    padding-right: 30px;
+}
+
+.faqs li:last-child{
+    border-bottom: 1px solid grey;
 }
 
 /* Footer */
